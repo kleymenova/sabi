@@ -1,0 +1,268 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 17px;
+  background-color: #fff;
+}
+li {
+  list-style-type: none;
+ }
+ a {
+  text-decoration: none;
+}
+a:active {
+  border-style: none;
+}
+a:focus {
+  outline: none;
+}
+.btn {
+  border: 0;
+  font-size: 20px;
+  background-color: #ee3643;
+  color: #fff;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.btn:hover, .btn:focus {
+  background-color: #ca2c37;
+}
+.btn:active {
+  background-color: #ba2732;
+  outline: none;
+}
+.input {
+  width: 228px;
+  margin-left: 13px;
+  height: 34px;
+  font-size: 20px;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.container {
+  width: 940px;
+  margin:0 auto;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.header__info {
+  position: relative;
+}
+.header__img {
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  top: 188px;
+  left: 431px;
+}
+.contacts__text {
+  font-size: 25px;
+  color: #71572b;
+  margin: 0;
+}
+.contacts__list {
+  margin: 0;
+  padding-left: 0;
+}
+.content {
+  background-color: #fff;
+}
+.header__info {
+  height: 235px;
+}
+.info__img {
+  width: 940px;
+  height: 235px;
+}
+.main__text {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #232639;
+}
+.content__text {
+  padding: 22px 18px 35px 0;
+  font-size: 22px;
+  text-align: center;
+  margin: 0;
+}
+.content__text_bold {
+  font-weight: bold;
+  font-size: 28px;
+  background: #d6dbfb;
+}
+.about__img {
+  float: left;
+  width: 300px;
+  height: 255px;
+}
+.about__text {
+  float: right;
+}
+.description__row {
+  max-height: 282px;
+}
+.description__title {
+  /* background-color: #d6dbfb; */
+  /* padding: 23px 0px 0px 77px; */
+  font-size: 49px;
+  margin-top: 40px;
+  /* text-align: center; */
+}
+.description__title_left {
+  /* padding-right: 20px; */
+  padding-left: 93px;
+  padding-top: 20px;
+}
+.row__icon {
+  font-size: 50px;
+}
+.row__left {
+  float: left;
+  background-color: #fff;
+  width: 390px;
+  height: 283px;
+  text-align: center;
+  background-color: #232c65;
+}
+.row__text {
+  float: left;
+  font-size: 22px;
+  padding: 51px 37px 0px 37px;
+}
+.row__text_white {
+  color: #fff;
+  font-size: 23px;
+}
+.row__img {
+  float: left;
+}
+/* .list__left {
+  float: left;
+} */
+/* .list__right {
+  text-align: right;
+} */
+.list-img {
+  width: 550px;
+  height: 283px;
+  float: left;
+}
+.row__number {
+  display: block;
+  font-size: 43px;
+}
+.list__item {
+  height: 200px;
+  width: 237px;
+  text-align: center;
+  /* justify-content: space-around; */
+  flex: auto;
+}
+.list__left {
+  display: flex;
+}
+.list__right {
+  display: flex;
+}
+/* .list__item_right {
+  float: right;
+} */
+/* .description__list {
+  display: inline-block;
+} */
+.list2__text {
+  width: 468px;
+  display: flex;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  font-size: 22px;
+  padding-top: 43px;
+  padding-left: 2px;
+  color: #333c75;
+}
+.list2__left {
+  float: left;
+}
+.list2__right {
+  float: left;
+}
+.list2__icon {
+  font-size: 39px;
+  color: #333c75;
+  padding-right: 16px;
+}
+.main__form {
+  text-align: center;
+}
+.form__title {
+  font-size: 28px;
+  background: #333c75;
+  color: #fff;
+  padding: 20px;
+}
+.form {
+  box-shadow: 0 0 10px #aeb2ba;
+  -moz-box-shadow: 0 0 10px #aeb2ba;
+  -webkit-box-shadow: 0 0 10px #aeb2ba;
+  width: 535px;
+  padding-bottom: 45px;
+}
+.appointment__item {
+  font-size: 23px;
+}
+.form__appointment {
+  padding-top: 1px;
+  text-align: right;
+  padding-right: 103px;
+}
+.form__btn {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.footer__information {
+  display: flex;
+  background-color: #465193;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.footer__social {
+  display: flex;
+  margin: 0;
+  margin-top: 14px;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+}
+.social__item {
+  background-color: #fff;
+  color: #465193;
+  width: 50px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-left: 21px;
+  font-size: 33px;
+  padding-left: 0px;
+  text-align: center;
+}
+.information__text {
+  margin: 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 115px;
+}
+.information__text_right {
+  float: right;
+}
