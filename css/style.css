@@ -85,13 +85,12 @@ a:focus {
 .main__text {
   text-align: center;
   margin-top: 40px;
-  margin-bottom: 40px;
   font-size: 25px;
   font-weight: bold;
   color: #232639;
 }
 .content__text {
-  padding: 22px 18px 35px 0;
+  padding: 57px 18px 39px 0px;
   font-size: 22px;
   text-align: center;
   margin: 0;
@@ -99,7 +98,6 @@ a:focus {
 .content__text_bold {
   font-weight: bold;
   font-size: 28px;
-  background: #d6dbfb;
 }
 .about__img {
   float: left;
@@ -109,20 +107,27 @@ a:focus {
 .about__text {
   float: right;
 }
+.description__list {
+  background: #d6dbfb;
+}
 .description__row {
   max-height: 282px;
 }
 .description__title {
-  /* background-color: #d6dbfb; */
-  /* padding: 23px 0px 0px 77px; */
   font-size: 49px;
   margin-top: 40px;
-  /* text-align: center; */
 }
 .description__title_left {
-  /* padding-right: 20px; */
   padding-left: 93px;
   padding-top: 20px;
+}
+.description2__list {
+  padding-bottom: 40px;
+  background: #d6dbfb;
+  position: relative;
+}
+.content__description2 {
+  padding-bottom: 139px;
 }
 .row__icon {
   font-size: 50px;
@@ -147,12 +152,6 @@ a:focus {
 .row__img {
   float: left;
 }
-/* .list__left {
-  float: left;
-} */
-/* .list__right {
-  text-align: right;
-} */
 .list-img {
   width: 550px;
   height: 283px;
@@ -166,31 +165,21 @@ a:focus {
   height: 200px;
   width: 237px;
   text-align: center;
-  /* justify-content: space-around; */
   flex: auto;
 }
-.list__left {
-  display: flex;
-}
-.list__right {
-  display: flex;
-}
-/* .list__item_right {
-  float: right;
-} */
-/* .description__list {
-  display: inline-block;
-} */
 .list2__text {
-  width: 468px;
+  width: 426px;
   display: flex;
   -webkit-display: flex;
   -moz-display: flex;
   -ms-display: flex;
   font-size: 22px;
   padding-top: 43px;
-  padding-left: 2px;
-  color: #333c75;
+  padding-left: 30px;
+}
+.list2__text_center {
+  position: absolute;
+  left: 263px;
 }
 .list2__left {
   float: left;
@@ -234,6 +223,7 @@ a:focus {
 .footer__information {
   display: flex;
   background-color: #465193;
+  margin-top: 30px;
   padding-top: 18px;
   padding-bottom: 18px;
 }
